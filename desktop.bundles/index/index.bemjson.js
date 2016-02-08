@@ -5129,48 +5129,32 @@ module.exports = {
                           elem: 'image'
                         },
                         {
-                          elem: 'content',
+                          elem: 'name',
                           content: [
                             {
-                              block: 'social-comment-text',
-                              content: [
-                                {
-                                  elem: 'name',
-                                  content: [
-                                    {
-                                      block: 'text',
-                                      mods: {size: 'm'},
-                                      content: 'Today we&rsquo;re having our 50th hackathon at&nbsp;Facebook.'
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              block: 'social-comment-text',
-                              content: [
-                                {
-                                  elem: 'content',
-                                  content: [
-                                    {
-                                      block: 'text',
-                                      mods : { size : 's' },
-                                      content: 'Hackathons are an&nbsp;important part of&nbsp;how we&nbsp;come up&nbsp;with new ideas. Everyone takes a&nbsp;day to&nbsp;explore any idea they want, and then everyone presents what they&rsquo;ve come up&nbsp;with at&nbsp;the end.'
-                                    }
-                                  ]
-                                }
-                              ]
+                              block: 'text',
+                              mods: {size: 'm'},
+                              content: 'Today we&rsquo;re having our 50th hackathon at&nbsp;Facebook.'
                             }
                           ]
                         },
                         {
-                          elem: 'link-box',
+                          elem: 'content',
+                          content: [
+                            {
+                              block: 'text',
+                              mods : { size : 's' },
+                              content: 'Hackathons are an&nbsp;important part of&nbsp;how we&nbsp;come up&nbsp;with new ideas. Everyone takes a&nbsp;day to&nbsp;explore any idea they want, and then everyone presents what they&rsquo;ve come up&nbsp;with at&nbsp;the end.'
+                            }
+                          ]
+                        },
+                        {
+                          block: 'social-link-box',
                           mix: {block: 'clearfix'},
                           content: [
                             {
                               block: 'social-comment-link',
                               content: [
-
                                 {
                                   elem: 'name',
                                   content: [
