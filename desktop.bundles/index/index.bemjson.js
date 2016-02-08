@@ -5626,6 +5626,68 @@ module.exports = {
                           ]
                         }
                       ]
+                    },
+                  ]
+                }
+              ]
+            },
+            {
+              block : 'kit',
+              content : [
+                {
+                  elem : 'item',
+                  content : [
+                    {
+                      block : 'social-feedback',
+                      content : [
+                        {
+                          elem : 'content',
+                          content : [
+                            {
+                              block : 'social-feedback-body',
+                              content : '&laquo;I feel lucky to work here and to have the opportunity to do things I love every day. It&rsquo;s challenging but fun and I&rsquo;ve grown so much by being around such smart, talented people. I&rsquo;ve also contributed to products and experiences used by over 1.5 billion people all around the world.&raquo;'
+                            },
+                            {
+                              block : 'social-feedback-author',
+                              content : [
+                                {
+                                  block : 'image',
+                                  mix : [{ block : 'social-feedback-author', elem : 'avatar' }],
+                                  url : '/i/juliezhuo.jpg',
+                                  alt : 'JulieZhuo'
+                                },
+                                {
+                                  elem : 'name',
+                                  content : 'Julie Zhuo'
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  elem : 'codepen',
+                  content : [
+                    {
+                      block : 'codepen',
+                      content : [
+                        {
+                          block : 'link',
+                          mix : { block : 'codepen', elem : 'link'},
+                          url : 'http://codepen.io',
+                          content : [
+                            {
+                              block : 'image',
+                              height : '20',
+                              url : '/i/codepen.png',
+                              title : 'Все подробности на bem.info'
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -6235,7 +6297,7 @@ module.exports = {
                   ]
                 }
               ]
-            }
+            },
           ]
         }
       ]
