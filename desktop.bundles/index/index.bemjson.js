@@ -5321,7 +5321,15 @@ module.exports = {
                       block: 'social-comment',
                       content: [
                         {
-                          elem: 'image'
+                          elem: 'image',
+                          content: [
+                            {
+                              block: 'image',
+                              url: '/i/zuckerberg.jpg',
+                              width: '60px',
+                              height: '60px'
+                            }
+                          ]
                         },
                         {
                           elem: 'user-name',
@@ -5704,7 +5712,15 @@ module.exports = {
                       block: 'social-comment',
                       content: [
                         {
-                          elem: 'image'
+                          elem: 'image',
+                          content: [
+                            {
+                              block: 'image',
+                              url: '/i/zuckerberg.jpg',
+                              width: '60px',
+                              height: '60px'
+                            }
+                          ]
                         },
                         {
                           elem: 'user-name',
@@ -5895,7 +5911,15 @@ module.exports = {
                       block: 'social-comment',
                       content: [
                         {
-                          elem: 'image'
+                          elem: 'image',
+                          content: [
+                            {
+                              block: 'image',
+                              url: '/i/zuckerberg.jpg',
+                              width: '60px',
+                              height: '60px'
+                            }
+                          ]
                         },
                         {
                           elem: 'user-name',
@@ -6148,7 +6172,15 @@ module.exports = {
                               block: 'social-comment-answer',
                               content: [
                                 {
-                                  elem: 'image4'
+                                  elem: 'image',
+                                  content: [
+                                    {
+                                      block: 'image',
+                                      url: '/i/griselda.jpg',
+                                      width: '34px',
+                                      height: '34px'
+                                    }
+                                  ]
                                 },
                                 {
                                   elem: 'user-name',
