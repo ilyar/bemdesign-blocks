@@ -10,7 +10,8 @@
   ],
   "dependencies": {
     "bem-components": "2.3.0",
-    "bem-grid": "~2.1.0"
+    "bem-grid": "~2.1.0",
+    "bemdesign-components": "bemdesign/bemdesign-components#custom"
   },
   "resolutions": {
     "bem-core": "2.7.0"
